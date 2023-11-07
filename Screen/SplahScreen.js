@@ -6,7 +6,8 @@ import {
     Image
 } from 'react-native';
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const SplashScrren = ({navigation}) => {
 
@@ -42,7 +43,7 @@ const SplashScrren = ({navigation}) => {
 
 export default SplashScrren;
 
-const styles = Style.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
